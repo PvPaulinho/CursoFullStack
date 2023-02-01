@@ -1,0 +1,48 @@
+
+
+body{
+	background-image: url(C:/Users/Admin/Desktop/Curso%20Full%20Stack%20-%20Programador%20BR/Módulo%2003%20-%20CSS%20Básico/19%20-%20Imagens/b.png);
+	background-repeat: no-repeat;
+	background-color: black;
+	margin: 0px;
+	background-size: 700px 350px
+}
+
+h1{
+	font-weight: 100;
+	font-family: Algerian;
+	color: darkblue;
+}
+
+ul{
+	list-style-position: inside;
+	padding: 0px;
+	margin: 0px;
+}
+
+#insta{
+	list-style-image: url(C:/Users/Admin/Desktop/Curso%20Full%20Stack%20-%20Programador%20BR/Módulo%2003%20-%20CSS%20Básico/19%20-%20Imagens/Insta.png);
+	padding: 10px;
+	margin: 10px;
+}
+
+#youtube{
+	list-style-image: url(C:/Users/Admin/Desktop/Curso%20Full%20Stack%20-%20Programador%20BR/Módulo%2003%20-%20CSS%20Básico/19%20-%20Imagens/Youtube.png);
+	padding: 10px;
+	margin: 10px;
+}
+
+#github{
+	list-style-image: url(C:/Users/Admin/Desktop/Curso%20Full%20Stack%20-%20Programador%20BR/Módulo%2003%20-%20CSS%20Básico/19%20-%20Imagens/GitHub.png);
+	padding: 10px;
+	margin: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: blue;
+	font-family: Colonna MT;
+	font-size: 30px;
+	font-weight: 500;
+
+}

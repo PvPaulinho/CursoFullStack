@@ -1,0 +1,201 @@
+ol{
+	color: darkgoldenrod;
+}
+#p1{
+	color: brown;
+}
+.p1{
+	color: darkmagenta;
+}
+#i1{
+	color: #00009F;
+}
+h1{
+	background: skyblue;
+}
+#amor{
+	background-color: blueviolet;
+}
+#listas{
+	background: url(C:/Users/Admin/Desktop/backup/Fotos/1.jpg) center/cover no-repeat fixed;
+}
+#tabela{
+	background: url(C:/Users/Admin/Desktop/backup/Fotos/1.jpg) center/cover no-repeat fixed;
+}
+#cm{
+	background-color: blue;
+	width:1cm;
+	height:1cm;
+}
+#mm{
+	background-color: red;
+	width:10mm;
+	height:10mm;
+}
+#in{
+	background-color: blue;
+	width:1in;
+	height:1in;
+}
+#px{
+	background-color: red;
+	width:10px;
+	height:10px;
+}
+#pt{
+	background-color: blue;
+	width:10pt;
+	height:10pt;
+}
+#pc{
+	background-color: red;
+	width:1pc;
+	height:1pc;
+}
+html{
+	font-size: 16px;
+}
+body{
+	font-size: 120%;
+}
+.container{
+	font-size: 2em;
+	width:30vw;
+	height:13vh;
+	background: red;
+}
+.inside{
+	font-size: 2rem;
+	width:50vmin;
+	height:2.5vmax;
+	background: blue;
+}
+#base{
+	height: 10px;
+	background-color: red;
+}
+#container2{
+	background-color: blue;
+	margin: 10px;
+	color: white;
+	padding: 10px;
+}
+.borda{
+	border-width: 5px;
+	border-style: solid;
+	border-color: blue;
+	border-radius: 100px;
+}
+.quadrado{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.contorno{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	border: 10px solid red;
+	box-sizing: border-box;
+}
+#Ajuste_de_texto{
+	color: red;
+	font-weight: bold;
+	text-align: justify;
+	text-transform: capitalize;
+	text-indent: 50px;
+	text-decoration: underline overline;
+	Letter-spacing: 2px;
+	line-height: 30px;
+	word-spacing: 20px;
+	text-shadow: -10px 10px 0px #bbb;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: 1000;
+}
+.links1{
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+.links1:link{
+	border: 2px solid red;
+	color: red;
+}
+
+.links1:hover{
+	background-color: black;
+	color: blue;
+	border-color: blue;
+}
+
+.links1:visited{
+	text-decoration: none;
+	color: darkblue;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+	margin: 10px;
+	border: 2px solid darkblue;
+}
+
+.links1:active{
+	background-color: blue;
+	color: white;
+	border-color: gold;
+}
+
+.lista_não_ordenada{
+	list-style-type: circle;
+	list-style-position: inside;
+	border: 3px dashed blue;
+	background-color: skyblue;
+	padding: 0px;
+	margin: 10px;
+}
+
+.lista_ordenada{
+	list-style-type: lower-aplpha;
+	list-style-position: inside;
+	margin: 0px;
+	padding: 5px;
+	color: black;
+	background-color: black;
+}
+
+#item1-lo{
+	list-style-position: inside;
+	border: 4px solid white;
+	background-color: darkblue;
+	padding: 1px;
+	margin: 5px;
+	border-radius: 8px;
+	color: white;
+}
+
+
+#item2-lo{
+	border: 4px solid red;
+	background-color: darkblue;
+	padding: 1px;
+	margin: 5px;
+	border-radius: 8px;
+	color: red;
+}
+
+#item3-lo{
+	border: 4px solid gold;
+	background-color: darkblue;
+	padding: 1px;
+	margin: 5px;
+	border-radius: 8px;
+	color: gold;
+}

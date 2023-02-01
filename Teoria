@@ -77,3 +77,273 @@
 			</body>
 		</html>
 --------------------------------------------------------------------------------------------------------------------------
+<!-- Módulo 3 -->
+	<!-- CSS -->
+		
+		<!-- inline -->
+		<tag style=""> = para utilizar CSS (style="" dentro da tag que deseja editar)
+			Para os códigos de propriedades do CSS, tem todos buscando CSS properties
+		
+		<!-- Interno -->
+			<!-- A edição do style neste caso deve ser feito dentro da tag head no começo do código html -->
+			
+			<style type="text/css"></style> = Utilizado antigamente
+			<style></style> = Pode ser utilizado desta forma
+			<style> = Forma de uso, e declarando um seletor desejado
+				p{color: blue;} = utilizando o seletor de parágrafo, assim editando todos, e colocando uma cor azul
+			Todas as formas serão feitas no estilo de cima, seleciona o seletor e posteriormente sua propriedade de edição
+			</style>
+
+		<!-- Externo -->
+			<!-- Para utilizar o css externo vamos fazer em um novo arquivo e posteriormente linkar os dois arquivos -->
+			<!-- O link entre esses arquivos deve ficar dentro da tag head no começo do código html -->
+			<!-- A extenção do arquivo precisa ser .css -->
+			<link rel="stylesheet" type="text/css" href="arquivo.css"> = Utilizado antigamente
+			<link href="Nome_do_arquivo.css" rel="stylesheet"> = Pode ser utilizado desta forma
+		-------------------------------------------------------------------------------------------------------------------
+		<!-- Identificador -->
+			<!-- O identificador será colocado dentro da tag que deseja identificar -->
+			<tag id="Nome_que_desejar"> = Para identificar uma tag
+			<!-- No arquivo do CSS -->
+			#Nome_que_desejar{ = Para se declarar a id, vem a # e o nome da id que desejar
+				codigo de propriedade do CSS = aqui vai colocar a propriedade que deseja adicionar a tag identificada
+				}
+
+		<!-- Classe -->
+			<!-- O classe será colocada dentro das tag's que desejar -->
+			<!-- No arquivo CSS -->
+			.Nome{ = Para se declarar a classe, vem o . e o nome da classe que desejar
+				codigo de propriedade do CSS = aqui vai colocar a propriedade que deseja adicionar a classe de tag
+				}
+			--> Em uma Tag pode ser declarada mais de uma class ao mesmo tempo
+
+		<!-- Criando link dentro da página -->
+			Primeiro se identifica o item que desejar fazer o link dele, e posteriormente cria um link com essa id, chamando como se fosse em outra página
+			<!-- Pode ser imagem ou outra coisa que desejar não e obrigatório ser uma tag somente -->
+			<tag id="link2"> = Identificando o item que desejar
+			<a href="#link2"></a> = colocando um link e chamando a id, para ir até o local dela na página
+		-------------------------------------------------------------------------------------------------------------------
+		<!-- Cores -->
+			As cores podem ser representadas pelos nome, por RGB ou RGBA ou então por numeral hexadecimal
+
+			Nome = Nome da cor
+
+			RGB = (0,0,0) à (255,255,255), sendo: (Red,Green,Blue) as três bases de cores e vo^ce altera o valor de cada uma
+			RGBA = (0,0,0,0) à (255,255,255,1), Sendo o A o valor de opaco da cor
+
+			Hexadecima = #000000 à #FFFFFF (Oque representa 0 a 255), sempre deve ser acompanhado da # antes do número
+
+		<!-- Background -->
+			Serve para colocar algo no fundo da página
+			<tag Background:> = E assim seta um valor
+			<tag Background: url(Endereço de uma imagem da internet) center/cover no-repeat fixed> = Para adicionar uma imagem de fundo atráz da sua tag usando um endereço de web ou uma imagem
+			
+			-> Center: É usado para centralizar a imagem na sua tag
+			-> cover: Para justificar a imagem no espaço desejado
+			-> no-repeat: para não repetir a imagem dentro do espaço desejado e extender uma unica imagem para se ocupar o espaçoda tag desejada
+			-> Fixed é usado para não se repetir a imagem se colocada em mais de uma tag, assim fazendo-a somente se prolongar por todas
+				<!-- Pode-se somente adcionar uma cor de fundo ou uma imagem local se desejado -->
+				<!-- Utilizando para mais de uma tag a imagem ficará picada se utilizada apenas o background, assim deve-se usar DIV para imendar uma imagem entre as TAG's-->
+
+		<!-- Div -->
+			Tag para se poder unir outras tags que desejar para realizar uma aplicação em conjunto sobre elas
+			<div></div>
+		
+		-------------------------------------------------------------------------------------------------------------------
+		
+		<!-- Unidades de medidas -->
+
+			<!-- Unidades de medidas fixas -->
+
+				<div id="cm"></div> = cm: Para centímetro
+				<div id="mm"></div> = mm: Para milímetro
+				<div id="in"></div> = in: Para polegada
+				<div id="px"></div> = px: Para píxel (Menor unidade de medida)
+				<div id="pt"></div> = pt: Para ponto 
+				<div id="pc"></div> = pc: Para picas (Equivale a 12 pontos)
+				-> width = Largura
+				-> height = Altura
+
+			<!-- Unidades de medidas de referência -->
+
+				--> font-size: = Para alterar o tamanho da fonte
+				--> em = Fonte em referência ao tamanho do elemento (d=De onde ele se localiza irá usar a refenrencia)
+				--> rem = Fonte em refereência ao tamanho da raiz (ou base)(Do html)
+				--> vw = Tem como referência a largura da janela (1vw = 1% da janela), irá ser variável, de acordo com o quanto se 			 encurta ou alarga a janela do navegador horizontalmente
+				--> vh = Tem como referência a altura da janela do navegador (1vh = 1% da janela), irá ser variável, de acordo com o 		  quanto se encurta ou alarga a janela do navegador verticalmente
+				--> vmin = Referênte a menor dimenção da janela do navegador, entre largura e altura
+				--> vmax = Referênte a maior dimenção da janela do navegador, entre largura e altura
+				--> % = Será referente ai elemento pai, ou seja em relação ao primeiro nível acima do nível de elemento
+		
+		-------------------------------------------------------------------------------------------------------------------
+		
+		<!-- Margens/Padding/Bordas -->
+
+			--> A diferença das margens:
+					1° - margin: 	Da um espaçamento do elemento para o lado de fora
+					2° - padding: 	Da um espaçamento do elemento para dentro (interno)
+					3° - border:	Faz uma borda para o elemento
+					4° - outline:	Igual a border mas não faz parte do boxmodel então sobrepoe a outro elemento de
+									 configuração no lugar de arreda-lo
+
+			<!-- Margin -->
+				margin = Para margem em todos os lados
+				margin-top = Margem externa na parte de cima
+				margin-bottom = Margem externa na parte de baixo
+				margin-left = Margem externa na parte esquerda
+				margin-right = Margem externa na parte direita
+
+			<!-- padding -->
+				padding = Para Margem interna em todos os lados
+				padding-top = Margem interna em cima
+				padding-bottom = Margem interna em baixo
+				padding-left = Margem interna há esquerda
+				padding-right = Margem interna há direita
+
+			<!-- Border -->
+				border-width: (Definir valor desejado); = Para expessura da borda
+				border-style: (Definir estilo da borda); = Para o estilo da borda
+							  solid = Estilo de borda mais utilizada
+				border-color: (Definir cor); = Para modificar a cor da borda
+				border-radius: (Definir valor desejado); = Para fazer a borda ficar arredondada
+
+			<!-- Tipos de bordas -->
+				dotted = Borda pontilhada
+				dashed = Borda tracejada
+				solid = Borda sólida
+				none = Borda não irá aparecer (Como se nunca tivesse entrado na tela)
+				hidde = Borda não irá aparecer (Borda está na tela mas não esta aparecendo)
+
+			<!-- Propriedades de bordas  -->
+				border-top-color: ; = Para mudar a cor apenas da borda de cima
+				border-bottom-color: ; = Para mudar a cor apenas da borda de baixo
+				border-right-color: ; = Para mudar a cor apenas da borda de direita
+				border-left-color: ; = Para mudar a cor apenas da borda de esquerda
+				<!-- Para configuração diferente em cada lado da borda diretamente -->
+					border-color: Top right bottom left; = a configuração será exatamente nessa ordem de lados (Para cor)
+					border-width: Top right bottom left; = a configuração será exatamente nessa ordem de lados (Para espessura)
+				<!-- Para se fazer a configuração direta da borda -->
+					border: Expessura Estilo cor (Width style color) (Ex.: fgborder: 5px solid black)
+
+			<!-- Ordem nas posições dos contornos -->
+
+				--> A ordem vindo de dentro para fora é:
+					1°: Conteúdo
+					2°: Padding
+					3°: Border
+					4°: Margin
+
+			<!-- Para não deixar acrecentar tamanho na imagem adicionando algum contorno -->
+				--> box-sizing: border box; = Para se delimitar o tamanho ao da borda inserida
+
+			--> Obs.: A Body tem uma padding e uma margin já pré estabelecida, então se houver necessidade deve-se zerar elas
+
+			--> Obs.: A tag <p>(De paragrafo) ja vem com valor de margin setado nele como padrão.
+		
+		<!-- Ajustes de textos -->
+
+			Color: = Para editar a cor do texto
+
+			text-aling: 		= Para edição do layout do texto.
+				--> text-aling: right; 		= Para deixar o texto à direita na página
+				--> text-aling: left;  		= Para deixar o texto à esquerda na página
+				--> text-aling: center; 	= Para deixar o texto centralizado na página
+				--> text-aling: justify;	= Para deixar o texto de forma justificada na página
+
+			text-transform: 	= Para edição de capitalização das letras do texto
+				--> text-transform: uppercase; 	= Para deixar todo o texto em maiusculo
+				--> text-transform: lowercase; 	= Para deixar todo o texto em minusculo
+				--> text-transform: capitalize;	= Para deixar toda 1° letra de cada palavra do texto em maiusculo
+
+			text-indent: ;		= Para colocar espaçamento no início do parágrafo
+
+			text-decoration:	= Para edição de decorações do texto
+				--> text-decoration: underline		= Para colocar o texto sublinhado (_)
+				--> text-decoration: overline		= Para colocar o texto com sublimação por cima do texto
+				--> text-decoration: line-through;	= Para riscar as letras do texto
+				--> text-decoration: none;			= Para deixar sem nenhuma decoração (Caso tiver um já pré-definido)
+				<!-- Obs.: Se desejado pode juntar mais de uma opção de decoração ao mesmo tempo -->
+
+			Letter-spacing: 1px;		= Para colocar espaçamento de um caractere para o outro
+				<!-- Obs.: Pode assumir valores negativos -->
+
+			line-height: 10px;			= Para definir a altura entre as linhas do texto
+
+			word-spacing: 10px;			= Para definir espaçamento de uma palavra para a outra
+
+			text-shadow: 				= Para colocar sombra
+				-> É definido por 4 definições
+						1°: Distancia para a direita
+						2°: Distancia para baixo
+						3°: Raio de desfoque 
+						4°: Cor da sombra
+				<!-- Exemplo: text-shadow: 5px 5px 5px black -->
+		
+		<!-- Fontes -->
+		
+			Obs.: Fonte padrão da página e a "Times new home"
+			Existem 3 tipos de famílias genéricas:
+				1°: Com serifa (Fontes com detalhes)
+				2°: Sem serifa (Fontes sem detalhes)
+				3°: Monospace (Todos os caracteres vão ter o mesmo tamanho)
+
+				font-family: "1° opção de fonte", "2° opção de fonte", sans-serif;
+					<!-- Fontes com espaço devem estar entre aspas -->
+					<!-- Pode-se usar somente 1 opção se desejar, mas se não houver a opção ou as opções no computador do usuário irá usar a fonte padrão, e pode ter quantas opções que desejar com fonte de reserva -->
+						<!-- A fonte sans-serif é uma fonte padrão nos computadores, então se desejar utiliza-la não tera o problema da fonte mudar em outro computador -->
+
+			As fontes serão em normal ou itálica:
+					font-style: normal;		 = normal
+					font-style: italica;	 = italic
+
+			font-weight: 600;	= Para se colocar a fonte em negrito (Varia de 0 a 1000)
+					<!-- Pode ser usado tambem bold ou bolder para colocar a fonte em negrito, mas essas duas são fixos e por número você escolhe o quanto sera usado -->
+
+		-------------------------------------------------------------------------------------------------------------------
+		
+		<!-- Formatação em links -->
+
+			<!-- Criar link: <a href=""></a> -->
+
+			text-decoration: none;		= Para retirar o sublinhado do link (Pode ser usado para acrescentar tambem, como 								ja visto antes)
+			color:						= Para mudar a cor do link
+			cursor: 					= Para mudar o formato do cursor quando estiver encima do link
+
+			-> Pode utilizar todos os tipos de edições de textos apresentados acima, por ex.: background, padding, border,...
+
+			-> Pode-se editar o link para antes e depois do estado de visitado, para quando se apenas está com o cursor encima 	do link, ou para o momento em que se clica no link:
+					1°: Não visitado: 		Chama o link no CSS e: (.link:link{})
+					2°: Visitado:			Chama o link no CSS e: (.link:visited{})
+					3°: Cursor no link: 	Chama o link no CSS e: (.link:hover{})
+					4°: Clicando no link: 	Chama o link no CSS e: (.link:active{})
+		
+		<!-- Formatação de listas -->
+
+			<!-- Listas não ordenadas -->
+				list-style-type:  					= Para editar os símbolos que antecedem um item da lista não ordenada
+					<!-- Mais usados -->
+						list-style-type: none; 		= Para não deixar nenhum símbolo
+						list-style-type: disc; 		= Para deixar um círculo sólido (Padão da lista não ordenada)
+						list-style-type: circle;	= Para deixar um círculo aberto
+						list-style-type: square;	= Para deixar um quadrado
+
+			<!-- Listas ordenadas -->
+				list-style-type:  					= Para editar os números que antecedem um item da lista ordenada
+					<!-- Mais usados -->
+						list-style-type: upper-roman; 	= Para deixar números romanos
+						list-style-type: lower-roman; 	= Para deixar números romanos minúsculos
+						list-style-type: upper-aplpha; 	= Para deixar letras maíusculas como ordenação
+						list-style-type: lower-aplpha; 	= Para deixar letras minúsculas como ordenação
+
+			<!-- Lista em geral -->
+				list-style-image: url("");			= Para inserir uma imagem como símbolo do item
+				list-style-position:				= Para determinar se os símbolos/números sejam incluidos nas listas ou 										 não
+					<!-- De padrão não é incluido -->
+					list-style-position: outside;	= Para não incluir
+					list-style-position: inside;	= Para incluir
+
+				--> As listas de padrão possuem margin e padding, então se desejar mudar sua posição deve alterar a margin 	   e a padding
+				--> As listas podem ser editadas por um completo ou item por item modificando o "Li"
+				--> Pode ser introduzido um link para cada item da lista ou com a própria lista
+
+---------------------------------------------------------------------------------------------------------------------------

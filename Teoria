@@ -92,7 +92,8 @@
 			<style> = Forma de uso, e declarando um seletor desejado
 				p{color: blue;} = utilizando o seletor de parágrafo, assim editando todos, e colocando uma cor azul
 			Todas as formas serão feitas no estilo de cima, seleciona o seletor e posteriormente sua propriedade de edição
-			</style>
+			)
+			</style> <!-- O parentese acima e para ser ignorado, so foi colocado para não atrapalhar os comentarios a seguir pensando que fosse código. --> 
 
 		<!-- Externo -->
 			<!-- Para utilizar o css externo vamos fazer em um novo arquivo e posteriormente linkar os dois arquivos -->
@@ -346,4 +347,4 @@
 				--> As listas podem ser editadas por um completo ou item por item modificando o "Li"
 				--> Pode ser introduzido um link para cada item da lista ou com a própria lista
 
----------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------

@@ -76,7 +76,7 @@
 				<!-- --> = Para se adicionar um comentário
 			</body>
 		</html>
---------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
 <!-- Módulo 3 -->
 	<!-- CSS -->
 		
@@ -101,7 +101,7 @@
 			<!-- A extenção do arquivo precisa ser .css -->
 			<link rel="stylesheet" type="text/css" href="arquivo.css"> = Utilizado antigamente
 			<link href="Nome_do_arquivo.css" rel="stylesheet"> = Pode ser utilizado desta forma
-		-------------------------------------------------------------------------------------------------------------------
+		-----------------------------------------------------------------------------------------------------------
 		<!-- Identificador -->
 			<!-- O identificador será colocado dentro da tag que deseja identificar -->
 			<tag id="Nome_que_desejar"> = Para identificar uma tag
@@ -123,7 +123,7 @@
 			<!-- Pode ser imagem ou outra coisa que desejar não e obrigatório ser uma tag somente -->
 			<tag id="link2"> = Identificando o item que desejar
 			<a href="#link2"></a> = colocando um link e chamando a id, para ir até o local dela na página
-		-------------------------------------------------------------------------------------------------------------------
+		----------------------------------------------------------------------------------------------------------
 		<!-- Cores -->
 			As cores podem ser representadas pelos nome, por RGB ou RGBA ou então por numeral hexadecimal
 
@@ -407,4 +407,16 @@
 				<select name="estado" size="3" multiple>
 					<option value="RJ">Rio de Janeiro</option>
 				</select>
+
+		<!-- tags semanticas -->
+			<header> = Cabeçaljo;
+			<nav> = Menu;
+			<main> = Principal conteudo da pagina;
+				<section> = Uma seção de uma página;
+				<article> = Um artigo de sua pagina;
+				<aside> = ;
+			footer: ;
+
 -------------------------------------------------------------------------------------------------------------------
+<!-- Módulo 6 -->
+

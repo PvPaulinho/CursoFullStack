@@ -443,7 +443,18 @@
 -------------------------------------------------------------------------------------------------------------------
 <!-- Módulo 7 -->
 
-	-- placeholder = Para colocar uma escrita dentro de uma caixa de botão .
+	-- placeholder = Para colocar uma escrita dentro de uma caixa de botão.
+
+	-- background-seze = Para ajustar o fundo em algumas formas.
+
+	-- Max-width = Para demilitar o espaço lateral máximo da TAG ou conteudo a se ocupar na tela.
+
+	-- Site mailchimp (mailchimp.com) = Site para realizar a integração de uma página de captura e receber seus cadastros e utilizalos (Basicamente faz-se o seu back-end).
+	
+	<-- Atalhos importantes VScode -->
+
+		- ctrl + ' = Para abrir terminal;
+		- crtl + ; = Para comentar a linha toda.
 	
 	<!-- O módulo 7 foi mais prático, por isso haver quase nenhuma opção para a prova -->
 

@@ -348,3 +348,9 @@
 				--> Pode ser introduzido um link para cada item da lista ou com a própria lista
 
 --------------------------------------------------------------------------------------------------------------------------
+<!-- Módulo 4 -->
+	<!-- CSS intermediário -->
+		
+		<!-- Display -->
+		É responsável por mostrar como cada elemento vai ser representado na tela.
+	--> Obs.: Todo elemento ja utilizado anteriormente já vem com uma configuração de display como padrão.

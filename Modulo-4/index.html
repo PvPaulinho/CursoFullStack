@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Módulo 4</title>
+
+	<style type="text/css">
+	
+		#Overflow{
+			color: black;
+			background-color: blue;
+			width: 300px;
+			height: 100px;
+
+			overflow: auto;
+		}
+
+		#quadrado{
+			width: 50px;
+			height: 50px;
+			background-color: blue;
+
+			margin: auto;
+		}
+
+		.Card{
+			position: relative;
+			float: left;
+			width: 400px;
+			height: 200px;
+			border: 2px solid green;
+			text-align: center;
+		}
+
+		.c1{
+			background-color: red;
+			line-height: 200px;
+		}
+
+		.c2{
+			background-color: blue;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+
+			transform: translate(-50%,-50%);
+		}
+
+		.header{
+			clear: left;
+			position: relative;
+			margin: auto;
+			width: 80%;
+			height: 100px;
+			background-color: black;
+		}
+
+		.content{
+			position: absolute;
+			width: 70%;
+			height: 70%;
+			background-color: blue;
+
+			top: 50%;
+			left: 50%;
+
+			transform: translate(-50%,-50%);
+
+			text-align: center;
+			font-size: 330%;
+		}
+
+	</style>
+</head>
+<body>
+	<div>
+		<div>Esta e uma DIV normal</div>
+		<div>E aqui a historia<div> DIV de dentro</div> continua</div>
+	</div>
+
+	<div>
+		<p>Este é um paragrafo normal</p>
+		<p>E aqui a historia continua</p>
+	</div>
+
+	<p>
+		Aqui eu tenho o inicio de um paragrafo <span> um SPAN no meio</span> e o fin do paragrafo.
+	</p>
+
+	<p>
+		Aqui eu tenho o inicio de um paragrafo <div>uma DIV no meio</div> e o fim do paragrafo.
+	</p>
+
+	<p>
+		Aqui eu tenho o inicio de um paragrado <img src="C:\Users\Admin\Desktop\irmãos.jpg" width="100px"> e o fim do paragrafo.
+	</p>
+
+	<div id="Overflow">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ea consectetur obcaecati exercitationem? Blanditiis architecto quos vero ullam similique delectus obcaecati nisi. Qui, ad doloribus molestiae nisi molestias nostrum quisquam?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit facere saepe reiciendis blanditiis, labore deleniti in et expedita alias at explicabo officia tenetur cum repellendus harum dolorum fugit consequuntur sint.
+	</div>
+
+	<div id="quadrado"></div>
+
+	<div class="Card">
+		<div class="c1">
+			Paulo Victor
+		</div>
+	</div>
+
+	<div class="Card">
+		<div class="c2">
+			Paulo Victor
+		</div>
+	</div>
+
+	<div class="header">
+		<div class="content">x</div>
+	</div>
+
+</body>
+</html>

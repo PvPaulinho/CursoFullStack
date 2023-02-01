@@ -353,7 +353,7 @@
 		
 		<!-- Display -->
 			É responsável por mostrar como cada elemento vai ser representado na tela.
-	--> Obs.: Todo elemento ja utilizado anteriormente já vem com uma configuração de display como padrão.
+		--> Obs.: Todo elemento ja utilizado anteriormente já vem com uma configuração de display como padrão.
 		
 		<!-- Overflow -->
 			Para quando um texto está excedendo o espaço demilitado para ele.
@@ -375,4 +375,36 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">.
 
 		@media screen and (max-width: 500px)= Para mudar a configuração apos atingir o tamanho demilitado.
+-------------------------------------------------------------------------------------------------------------------
+<!-- Módulo 5 -->
+	<!-- HTML Intermediário -->
+
+		<!-- input -->
+			<input type="text" name="email"> = para email;
+			<input type="password" name="senha"> = Para senha;
+			<input type="checkbox" name="curso" value="op1"> = Para criar caixas de marcação;
+			<input type="radio" name="genero" value="m" checked> = Para criar bolas de opções de escolha unica;
+			<input type="reset" value="Limpar"> = Botão de reset dos campos;
+			<input type="submit" value="Enviar"> = Botão de enviar;
+			<input type="color" name="cor"> = Para criar um botão deescolha de cores;
+			<input type="date" name="data"> = Para criar um botão de escolha de data;
+			<input type="datetime-local" name="data"> = Para criar um botão de escolha de data e hora;
+			<input type="file" name="arquivo"> = Criar botão para receber um arquivo;
+			<input type="number" name="numero" min="1" max="10"> 
+				= Para criar uma caixa para números (Tendo seta para aumentar e diminuir a quantidade desejada);
+			<input type="range" name="intervalo" min="0" max="1000" value="0">
+				 = Para criar uma barra de rolagem para numeros;
+			<input type="tel" name="telefone"> = Para criar um botão para busca de telefone;
+			<input type="email" name="email"> = Para criar botão para receber email;
+			<input type="url" name="url"> = Para criar botão de receber uma url.
+
+		<!-- textarea -->
+			- Para criar caixa de mensgam.
+			<textarea name="mensagem" cols="30" rows="10"></textarea>
+
+		<!-- select e option -->
+			- Para criar Para criar uma caixa de opções de escolha, podento delimitara quantidade maxima para 	aparecer de uma unica fez, e assim criando uma barra de rolagem para as demais
+				<select name="estado" size="3" multiple>
+					<option value="RJ">Rio de Janeiro</option>
+				</select>
 -------------------------------------------------------------------------------------------------------------------

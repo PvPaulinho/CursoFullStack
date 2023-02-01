@@ -11,4 +11,69 @@
 		Elemento HTML = <tag>conteudo</tag>
 		----
 		Para utilzar o HTML(Versão 5) = <!DOCTYPE html>
----------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+<!-- Módulo 2 -->
+	Estrutura html:
+		<!DOCTYPE html>
+		<html long="pt_br"> = O "long" traz para o navegador a linguagem que estará usando na página
+			<head> = Faz a configuração da página)
+				<title>nome</title> = Nome da ába
+				<meta charset="utf-8">
+			</head>
+			<body>
+				<h1></h1> = Títulos, sendo de 1 a 6, com ordem de importnância maoir o 1(De preferência utilizar somente uma vez para a tag "h1")(As demáis seriam como subtítulos dela)
+
+				<p></p> = Tag para parágrafos
+
+				<b></b> = Tag de formatação para deixar em negrito (Sem importância, apenas para visualização)
+				<strong></strong> = Tag de formatação, deixa em negrito e sinaliza para um mecanismo de busca que o texto é mais importante que os demais
+
+				<i></i> = Tag de formatação para deixar em itálico (Sem importância, apenas para visualização)
+				<em></em> = Tag de formatação, deixa em itálico e sinaliza para um mecanismo de busca que o texto é mais importante que os demais
+
+				<mark></mark> = Tag de formatação para fazer uma marcação no texto
+
+				<small></small> = Tag de formatação para deixar o texto um pouco menor
+
+				<del></del> ou <s></s> = Tag de formatação para deixar texto riscado (Significado de texto removido e substituido por outro)
+
+				<u></u> ou <ins></ins> = Tag de formatação para colocar o texto sublinhado (Significado de texto inserido)
+
+				<sub></sub> = Tag de formatação para colocar um texto como subscrito (Tipo base de um número)
+				<sup></sup> = Tag de formatação para colocar um texto como superscript (Tipo um número elevado)
+				----------------------------------------------------------------------------------------------------------
+				<a href=""></a> = Para acessar um link
+
+				<br> = Tag de altofechamento (Fará pular para uma próxima linha)
+
+				<img src=""> = Para abrir uma imágem
+				<img src="" alt=""> = Para abrir uma imágem (O alt irá adicionar um nóme a imagem, oque facilita a identificação da imagem)
+				<a href="Link de um site"><img src="Endereço da imagem"></a> = A imagem será um Hiperlink para acessar um link
+					=> Sempre que tiver uma mão aprecendo é porque será um link
+				<img src="" width="" height=""> = Para abrir uma imágem e alterar as dimenções dela (Sendo Width lateral e Height altura)(Se colocar somente um mantera a proporção da imagem, e se colocar os dois você alterará os dois lados delas podendo deformar a imagem)
+
+				<a href="mailto: "></a> = Para se fazer um link abrir diretamente um email
+				----------------------------------------------------------------------------------------------------------
+				<h2>Listas</h2>
+				<ul>	= Lista não ordenada
+					<li>item 1</li>
+					<li>item 2</li>
+					<li>item n</li>
+				</ul>
+				<ol type=1>	= Lista ordenada (Type escolhe o tipo da figura da lista 'Se é numero, letra e tal') 										(Não é obrigatorio usar type)
+					<li>item 1</li>
+					<li>item 2</li>
+					<li>item n</li>
+				</ol>
+				----------------------------------------------------------------------------------------------------------
+				<h3>Tabela</h3>
+				<table>		= Para criar tabela
+					<tr>	= Para linha da Tabela
+						<th></th> = Para cabeçalho
+						<td></td> = Para os dados da tabela
+					</tr>
+				</table>
+				<!-- --> = Para se adicionar um comentário
+			</body>
+		</html>
+--------------------------------------------------------------------------------------------------------------------------

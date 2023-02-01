@@ -11,7 +11,7 @@
 		Elemento HTML = <tag>conteudo</tag>
 		----
 		Para utilzar o HTML(Versão 5) = <!DOCTYPE html>
---------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
 <!-- Módulo 2 -->
 	Estrutura html:
 		<!DOCTYPE html>
@@ -150,7 +150,7 @@
 			Tag para se poder unir outras tags que desejar para realizar uma aplicação em conjunto sobre elas
 			<div></div>
 		
-		-------------------------------------------------------------------------------------------------------------------
+		-----------------------------------------------------------------------------------------------------------
 		
 		<!-- Unidades de medidas -->
 
@@ -176,7 +176,7 @@
 				--> vmax = Referênte a maior dimenção da janela do navegador, entre largura e altura
 				--> % = Será referente ai elemento pai, ou seja em relação ao primeiro nível acima do nível de elemento
 		
-		-------------------------------------------------------------------------------------------------------------------
+		-----------------------------------------------------------------------------------------------------------
 		
 		<!-- Margens/Padding/Bordas -->
 
@@ -300,7 +300,7 @@
 			font-weight: 600;	= Para se colocar a fonte em negrito (Varia de 0 a 1000)
 					<!-- Pode ser usado tambem bold ou bolder para colocar a fonte em negrito, mas essas duas são fixos e por número você escolhe o quanto sera usado -->
 
-		-------------------------------------------------------------------------------------------------------------------
+		-----------------------------------------------------------------------------------------------------------
 		
 		<!-- Formatação em links -->
 
@@ -347,10 +347,32 @@
 				--> As listas podem ser editadas por um completo ou item por item modificando o "Li"
 				--> Pode ser introduzido um link para cada item da lista ou com a própria lista
 
---------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
 <!-- Módulo 4 -->
 	<!-- CSS intermediário -->
 		
 		<!-- Display -->
-		É responsável por mostrar como cada elemento vai ser representado na tela.
+			É responsável por mostrar como cada elemento vai ser representado na tela.
 	--> Obs.: Todo elemento ja utilizado anteriormente já vem com uma configuração de display como padrão.
+		
+		<!-- Overflow -->
+			Para quando um texto está excedendo o espaço demilitado para ele.
+			- scroll = Para criar barras de rolagem em ambos os eixos;
+			- auto = Para criar barras de rolagem automaticamente ao eixo necessário;
+			- visible = Para mostrar o conteudo mesmo estando extrapolando o espaço designado;
+			- hidden = Para esconder o conteudo que ultrapassar o espaço designado;
+			- overflow-x = Para criar barras de rolagem no eixo x;
+			- overflow-y = Para criar barras de rolagem no eixo y;
+
+		-- Margin: auto = Para centralizar um elemento no espaço disponível.
+
+		-- text-aling = Para editar um conteudo dentro da linha.
+
+		-- float = Forma de organizar conteudos (div).
+
+		-- clear = Para limpar a sequencia da linha.
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">.
+
+		@media screen and (max-width: 500px)= Para mudar a configuração apos atingir o tamanho demilitado.
+-------------------------------------------------------------------------------------------------------------------

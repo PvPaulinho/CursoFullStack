@@ -1,0 +1,14 @@
+<!-- Módulo 1 -->
+
+	<!-- Teoria -->
+		Frontend = Tudo que roda na sua máquina(Cliente)
+		Backend = Tudo que executa no servidor
+			Renderização = Se a aplicação cria o HTML em tempo real 
+				Página dinâmica = Uma página que muda dependendo do seu acesso (Geralmente tem um padrão e altera apenas o dado selecionado pelo cliente)
+		----
+		Tag de abertura = <tag>
+		Tag de fechamento = </tag>
+		Elemento HTML = <tag>conteudo</tag>
+		----
+		Para utilzar o HTML(Versão 5) = <!DOCTYPE html>
+---------------------------------------------------------------------------------------------------------------------------

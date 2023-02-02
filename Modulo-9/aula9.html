@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        function loaded() {
+            let t = document.getElementById("titulo")
+
+            t.onclick = mudarTexto;
+
+            t.addEventListener("mouseover", mudandoTexto)
+
+            t.addEventListener("mouseout", voltandoTexto)
+        }
+
+        function mudarTexto() {
+            this.innerHTML = "Novo Texto";
+        }
+
+        function mudandoTexto() {
+            this.innerHTML = "Mudando texto";
+        }
+
+        function voltandoTexto() {
+            this.innerHTML = "teste";
+        }
+
+    </script>
+</head>
+<body onload="loaded()">
+    
+    <h1 id="titulo">teste</h1>
+
+</body>
+</html>

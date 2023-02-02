@@ -465,7 +465,7 @@
 		-> Para se usar JS interno se escreve o código desejado dentro da TAG;
 		-> Para usar o JS externo usa-se: <script src="script.js"></script>.
 
-	Algoritmo = Sequencia de passos para se realizar uma tarefa.
+	--> Algoritmo = Sequencia de passos para se realizar uma tarefa.
 
 	console.log() = Para imprimir algo no console.
 
@@ -495,3 +495,7 @@
 
 	for(var x in y) = Substitui o: for(var i=0, i<y.length,i++);
 	for(var x of y) = Vai pegar o valor de cada elemento do array e usar em i.
+
+	--> Metodos = São as ações que um objeto pode realizar (ou quando uma propriedade armazena uma função)
+
+	

@@ -484,3 +484,7 @@
 	|| = ou.
 
 	--> Obs.: É possivel fazer uma operação matematica com uma string (Que seja apenas numero), a string irá virar um número.
+
+	swith(x):
+		case "y": = Usa um valor ou uma variável para comparar em casos desejados para se identificar em qual o seu resultado se enquadra.
+		defaut: = Finaliza a sequencia de Swith/case.

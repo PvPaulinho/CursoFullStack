@@ -469,4 +469,6 @@
 
 	console.log() = Para imprimir algo no console.
 
+	--> Obs.: Recomenda-se sempre na criação de uma variável utilizar letra minuscula no inicio dela.
+
 	

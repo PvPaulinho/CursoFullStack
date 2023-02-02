@@ -488,3 +488,10 @@
 	swith(x):
 		case "y": = Usa um valor ou uma variável para comparar em casos desejados para se identificar em qual o seu resultado se enquadra.
 		defaut: = Finaliza a sequencia de Swith/case.
+
+	math.random() = Para gerar um numero aleatório entre 0 e 1.
+
+	length = Para ler o tamanho de um array.
+
+	for(var x in y) = Substitui o: for(var i=0, i<y.length,i++);
+	for(var x of y) = Vai pegar o valor de cada elemento do array e usar em i.

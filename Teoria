@@ -482,3 +482,5 @@
 	&& = e.
 
 	|| = ou.
+
+	--> Obs.: É possivel fazer uma operação matematica com uma string (Que seja apenas numero), a string irá virar um número.

@@ -466,3 +466,7 @@
 		-> Para usar o JS externo usa-se: <script src="script.js"></script>.
 
 	Algoritmo = Sequencia de passos para se realizar uma tarefa.
+
+	console.log() = Para imprimir algo no console.
+
+	

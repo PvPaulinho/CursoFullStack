@@ -464,5 +464,5 @@
 	<script></script> = Para chamar o codigo JS.
 		-> Para se usar JS interno se escreve o código desejado dentro da TAG;
 		-> Para usar o JS externo usa-se: <script src="script.js"></script>.
-	
-	
+
+	Algoritmo = Sequencia de passos para se realizar uma tarefa.

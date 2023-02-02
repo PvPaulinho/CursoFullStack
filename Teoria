@@ -498,4 +498,28 @@
 
 	--> Metodos = São as ações que um objeto pode realizar (ou quando uma propriedade armazena uma função)
 
+	<!-- Date -->
+
+		var x = new Date() = Para criar uma data (Funciona como um objeto)
+			() = data atual com todas as informações, na ordem a seguir (Possui mais algumas informações como fusohario e dia da semana):
+				year = Ano;
+				month = Mes;
+				day = dia;
+				hours = hora;
+				minutes = Minuto;
+				seconds = Segundos;
+				miliseconds = Milisegundos.
+			
+				--> Obs.: Mes é um array de 0 a 11.
+			
+		<!-- Data como string -->
+			-> var x = new Date("sep 05 2017 23:25")
+			-> var x = new Date("11 05 2017 23:25")
+			-> var x = new Date("05/25/1999")
+			-> var x = new Date("05-25-1999")
+
+		<!-- Utilizando metodos de Date -->
+			-> Para buscar um valor de data= x.getDate (Entre vários outros listados);
+			-> Para setar um valor na variável = x.setDate (Entre vários outros listados);
+
 	

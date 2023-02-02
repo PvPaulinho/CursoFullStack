@@ -478,5 +478,7 @@
 	=== = Comparador de igualdade entre valor e tipo.
 
 	!== = Comparador de desigualdade entre valor e tipo.
-
 	
+	&& = e.
+
+	|| = ou.

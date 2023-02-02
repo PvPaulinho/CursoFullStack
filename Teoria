@@ -496,7 +496,7 @@
 	for(var x in y) = Substitui o: for(var i=0, i<y.length,i++);
 	for(var x of y) = Vai pegar o valor de cada elemento do array e usar em i.
 
-	--> Metodos = São as ações que um objeto pode realizar (ou quando uma propriedade armazena uma função)
+	--> Metodos = São as ações que um objeto pode realizar (ou quando uma propriedade armazena uma função).
 
 	<!-- Date -->
 
@@ -513,13 +513,17 @@
 				--> Obs.: Mes é um array de 0 a 11.
 			
 		<!-- Data como string -->
-			-> var x = new Date("sep 05 2017 23:25")
-			-> var x = new Date("11 05 2017 23:25")
-			-> var x = new Date("05/25/1999")
-			-> var x = new Date("05-25-1999")
+			-> var x = new Date("sep 05 2017 23:25");
+			-> var x = new Date("11 05 2017 23:25");
+			-> var x = new Date("05/25/1999");
+			-> var x = new Date("05-25-1999").
 
 		<!-- Utilizando metodos de Date -->
 			-> Para buscar um valor de data= x.getDate (Entre vários outros listados);
-			-> Para setar um valor na variável = x.setDate (Entre vários outros listados);
+			-> Para setar um valor na variável = x.setDate (Entre vários outros listados).
+
+	-> var = Variável global.
+	-> let = Variável local.
+	-> const = Variável local, que não pode ser modificada (Mas pode ter incrementos no caso de um array ou objeto).
 
 	

@@ -40,20 +40,22 @@
 
     <div class="container">
 
-        <video class="video" src="./assents/videos/WIN_20230127_20_16_25_Pro.mp4"></video>
+        <video id="video1" class="video" src="./assents/videos/WIN_20230127_20_16_25_Pro.mp4"></video>
 
         <div class="controle">
 
-            <img class="botao" src="./assents/imagens/voltar.png">
-            <img class="botao" src="./assents/imagens/avançar.png">
-            <img class="botao" src="./assents/imagens/mais.png">
-            <img class="botao" src="./assents/imagens/menos.png">
-            <img class="botao" src="./assents/imagens/play.png">
-            <img class="botao" src="./assents/imagens/stop.png">
+            <img class="botao" onclick="retroceder()" src="./assents/imagens/voltar.png">
+            <img class="botao" onclick="avancar()" src="./assents/imagens/avançar.png">
+            <img class="botao" onclick="diminuir_vel()" src="./assents/imagens/menos.png">
+            <img class="botao" onclick="aumentar_vel()" src="./assents/imagens/mais.png">
+            <img class="botao" onclick="play()" src="./assents/imagens/play.png">
+            <img class="botao" onclick="stop()" src="./assents/imagens/stop.png">
             
         </div>
 
     </div>
+
+    <script src="./scripts/aula6.js"></script>
     
 </body>
 </html>

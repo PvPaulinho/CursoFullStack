@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+
+    <style>
+        
+        .container {
+            position: relative;
+            width: 640px;
+            height: 360px;
+        }
+
+        .video {
+            width: 100%;
+        }
+
+        .controle {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+
+        .botao {
+            position: relative;
+            width: 60px;
+            padding: 10px;
+            top: 100%;
+            transform: translateY(-100%);
+        }
+        
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <video class="video" src="./assents/videos/WIN_20230127_20_16_25_Pro.mp4"></video>
+
+        <div class="controle">
+
+            <img class="botao" src="./assents/imagens/voltar.png">
+            <img class="botao" src="./assents/imagens/avançar.png">
+            <img class="botao" src="./assents/imagens/mais.png">
+            <img class="botao" src="./assents/imagens/menos.png">
+            <img class="botao" src="./assents/imagens/play.png">
+            <img class="botao" src="./assents/imagens/stop.png">
+            
+        </div>
+
+    </div>
+    
+</body>
+</html>

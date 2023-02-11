@@ -526,4 +526,20 @@
 	-> let = Variável local.
 	-> const = Variável local, que não pode ser modificada (Mas pode ter incrementos no caso de um array ou objeto).
 
-	
+-------------------------------------------------------------------------------------------------------------------
+<!-- Módulo 8 -->
+
+	<!-- Eventos -->
+
+		onclick = Um evento que ao ser clicado irá ser executado.
+		onchange = Um evento para quando executado modificar o elemento desejado.
+		oninput = Um evento que quando se vai digitando na pagina já vai realizando a alteração no elemento desejado.
+		onload = Evento que será executada assim que toda a página tenha sido carregada.
+		onmouseover = Evento que será executado assim que passar o mouse por cima do elemento.
+		onmouseout = Evento que será executado assim que o mouse sair de cima do elemento.
+		addEventListener("mouseover",x) = Modo para se usar eventos;
+			(Criado no JS)		|	 |-> (Função a se chamar)
+								|-> (Deixa de precisar do 'on')
+		children = Para se chamar um elemento filho.
+		parentElement = Para se chamar um elemento pai.
+		

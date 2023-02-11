@@ -2,13 +2,13 @@
 
 	<!-- Teoria -->
 		Frontend = Tudo que roda na sua máquina(Cliente)
-		Backend = Tudo que executa no servidor
+		Backend  = Tudo que executa no servidor
 			Renderização = Se a aplicação cria o HTML em tempo real 
 				Página dinâmica = Uma página que muda dependendo do seu acesso (Geralmente tem um padrão e altera apenas o dado selecionado pelo cliente)
 		----
-		Tag de abertura = <tag>
+		Tag de abertura	  = <tag>
 		Tag de fechamento = </tag>
-		Elemento HTML = <tag>conteudo</tag>
+		Elemento HTML 	  = <tag>conteudo</tag>
 		----
 		Para utilzar o HTML(Versão 5) = <!DOCTYPE html>
 -------------------------------------------------------------------------------------------------------------------
@@ -21,19 +21,19 @@
 				<meta charset="utf-8">
 			</head>
 			<body>
-				<h1></h1> = Títulos, sendo de 1 a 6, com ordem de importnância maoir o 1(De preferência utilizar somente uma vez para a tag "h1")(As demáis seriam como subtítulos dela)
+				<h1></h1>   = Títulos, sendo de 1 a 6, com ordem de importnância maoir o 1(De preferência utilizar somente uma vez para a tag "h1")(As demáis seriam como subtítulos dela)
 
-				<p></p> = Tag para parágrafos
+				<p></p> 	= Tag para parágrafos
 
-				<b></b> = Tag de formatação para deixar em negrito (Sem importância, apenas para visualização)
+				<b></b> 	= Tag de formatação para deixar em negrito (Sem importância, apenas para visualização)
 				<strong></strong> = Tag de formatação, deixa em negrito e sinaliza para um mecanismo de busca que o texto é mais importante que os demais
 
-				<i></i> = Tag de formatação para deixar em itálico (Sem importância, apenas para visualização)
-				<em></em> = Tag de formatação, deixa em itálico e sinaliza para um mecanismo de busca que o texto é mais importante que os demais
+				<i></i> 	= Tag de formatação para deixar em itálico (Sem importância, apenas para visualização)
+				<em></em> 	= Tag de formatação, deixa em itálico e sinaliza para um mecanismo de busca que o texto é mais importante que os demais
 
-				<mark></mark> = Tag de formatação para fazer uma marcação no texto
+				<mark></mark> 		   = Tag de formatação para fazer uma marcação no texto
 
-				<small></small> = Tag de formatação para deixar o texto um pouco menor
+				<small></small> 	   = Tag de formatação para deixar o texto um pouco menor
 
 				<del></del> ou <s></s> = Tag de formatação para deixar texto riscado (Significado de texto removido e substituido por outro)
 
@@ -46,20 +46,22 @@
 
 				<br> = Tag de altofechamento (Fará pular para uma próxima linha)
 
-				<img src=""> = Para abrir uma imágem
-				<img src="" alt=""> = Para abrir uma imágem (O alt irá adicionar um nóme a imagem, oque facilita a identificação da imagem)
-				<a href="Link de um site"><img src="Endereço da imagem"></a> = A imagem será um Hiperlink para acessar um link
+				<img src=""> 	= Para abrir uma imágem
+				<img src="" alt=""> 	= Para abrir uma imágem (O alt irá adicionar um nóme a imagem, oque facilita a identificação da imagem)
+				<a href="Link de um site"><img src="Endereço da imagem"></a> 	= A imagem será um Hiperlink para acessar um link
 					=> Sempre que tiver uma mão aprecendo é porque será um link
-				<img src="" width="" height=""> = Para abrir uma imágem e alterar as dimenções dela (Sendo Width lateral e Height altura)(Se colocar somente um mantera a proporção da imagem, e se colocar os dois você alterará os dois lados delas podendo deformar a imagem)
+				<img src="" width="" height=""> 	= Para abrir uma imágem e alterar as dimenções dela (Sendo Width lateral e Height altura)(Se colocar somente um mantera a proporção da imagem, e se colocar os dois você alterará os dois lados delas podendo deformar a imagem)
 
-				<a href="mailto: "></a> = Para se fazer um link abrir diretamente um email
+				<a href="mailto: "></a> 	= Para se fazer um link abrir diretamente um email
 				----------------------------------------------------------------------------------------------------------
 				<h2>Listas</h2>
+
 				<ul>	= Lista não ordenada
 					<li>item 1</li>
 					<li>item 2</li>
 					<li>item n</li>
 				</ul>
+
 				<ol type=1>	= Lista ordenada (Type escolhe o tipo da figura da lista 'Se é numero, letra e tal') 										(Não é obrigatorio usar type)
 					<li>item 1</li>
 					<li>item 2</li>
@@ -67,13 +69,14 @@
 				</ol>
 				----------------------------------------------------------------------------------------------------------
 				<h3>Tabela</h3>
-				<table>		= Para criar tabela
-					<tr>	= Para linha da Tabela
-						<th></th> = Para cabeçalho
-						<td></td> = Para os dados da tabela
+				
+				<table>				= Para criar tabela
+					<tr>			= Para linha da Tabela
+						<th></th> 	= Para cabeçalho
+						<td></td> 	= Para os dados da tabela
 					</tr>
 				</table>
-				<!-- --> = Para se adicionar um comentário
+				<!-- --> 	= Para se adicionar um comentário
 			</body>
 		</html>
 -------------------------------------------------------------------------------------------------------------------
@@ -81,15 +84,15 @@
 	<!-- CSS -->
 		
 		<!-- inline -->
-		<tag style=""> = para utilizar CSS (style="" dentro da tag que deseja editar)
+		<tag style=""> 		= para utilizar CSS (style="" dentro da tag que deseja editar)
 			Para os códigos de propriedades do CSS, tem todos buscando CSS properties
 		
 		<!-- Interno -->
 			<!-- A edição do style neste caso deve ser feito dentro da tag head no começo do código html -->
 			
-			<style type="text/css"></style> = Utilizado antigamente
-			<style></style> = Pode ser utilizado desta forma
-			<style> = Forma de uso, e declarando um seletor desejado
+			<style type="text/css"></style> 	= Utilizado antigamente
+			<style></style> 	= Pode ser utilizado desta forma
+			<style> 			= Forma de uso, e declarando um seletor desejado
 				p{color: blue;} = utilizando o seletor de parágrafo, assim editando todos, e colocando uma cor azul
 			Todas as formas serão feitas no estilo de cima, seleciona o seletor e posteriormente sua propriedade de edição
 			)
@@ -104,19 +107,20 @@
 		-----------------------------------------------------------------------------------------------------------
 		<!-- Identificador -->
 			<!-- O identificador será colocado dentro da tag que deseja identificar -->
-			<tag id="Nome_que_desejar"> = Para identificar uma tag
+				<tag id="Nome_que_desejar"> 	= Para identificar uma tag
+			
 			<!-- No arquivo do CSS -->
-			#Nome_que_desejar{ = Para se declarar a id, vem a # e o nome da id que desejar
+				#Nome_que_desejar{ = Para se declarar a id, vem a # e o nome da id que desejar
 				codigo de propriedade do CSS = aqui vai colocar a propriedade que deseja adicionar a tag identificada
 				}
 
 		<!-- Classe -->
 			<!-- O classe será colocada dentro das tag's que desejar -->
-			<!-- No arquivo CSS -->
-			.Nome{ = Para se declarar a classe, vem o . e o nome da classe que desejar
-				codigo de propriedade do CSS = aqui vai colocar a propriedade que deseja adicionar a classe de tag
-				}
-			--> Em uma Tag pode ser declarada mais de uma class ao mesmo tempo
+				<!-- No arquivo CSS -->
+					.Nome{ = Para se declarar a classe, vem o . e o nome da classe que desejar
+					codigo de propriedade do CSS = aqui vai colocar a propriedade que deseja adicionar a classe de tag
+					}
+				--> Em uma Tag pode ser declarada mais de uma class ao mesmo tempo
 
 		<!-- Criando link dentro da página -->
 			Primeiro se identifica o item que desejar fazer o link dele, e posteriormente cria um link com essa id, chamando como se fosse em outra página
@@ -127,16 +131,16 @@
 		<!-- Cores -->
 			As cores podem ser representadas pelos nome, por RGB ou RGBA ou então por numeral hexadecimal
 
-			Nome = Nome da cor
+			Nome 		= Nome da cor
 
-			RGB = (0,0,0) à (255,255,255), sendo: (Red,Green,Blue) as três bases de cores e vo^ce altera o valor de cada uma
-			RGBA = (0,0,0,0) à (255,255,255,1), Sendo o A o valor de opaco da cor
+			RGB 		= (0,0,0) à (255,255,255), sendo: (Red,Green,Blue) as três bases de cores e vo^ce altera o valor de cada uma
+			RGBA 		= (0,0,0,0) à (255,255,255,1), Sendo o A o valor de opaco da cor
 
-			Hexadecima = #000000 à #FFFFFF (Oque representa 0 a 255), sempre deve ser acompanhado da # antes do número
+			Hexadecima 	= #000000 à #FFFFFF (Oque representa 0 a 255), sempre deve ser acompanhado da # antes do número
 
 		<!-- Background -->
 			Serve para colocar algo no fundo da página
-			<tag Background:> = E assim seta um valor
+			<tag Background:> 	= E assim seta um valor
 			<tag Background: url(Endereço de uma imagem da internet) center/cover no-repeat fixed> = Para adicionar uma imagem de fundo atráz da sua tag usando um endereço de web ou uma imagem
 			
 			-> Center: É usado para centralizar a imagem na sua tag
@@ -162,18 +166,19 @@
 				<div id="px"></div> = px: Para píxel (Menor unidade de medida)
 				<div id="pt"></div> = pt: Para ponto 
 				<div id="pc"></div> = pc: Para picas (Equivale a 12 pontos)
-				-> width = Largura
-				-> height = Altura
+				
+				-> width 	= Largura
+				-> height 	= Altura
 
 			<!-- Unidades de medidas de referência -->
 
-				--> font-size: = Para alterar o tamanho da fonte
-				--> em = Fonte em referência ao tamanho do elemento (d=De onde ele se localiza irá usar a refenrencia)
-				--> rem = Fonte em refereência ao tamanho da raiz (ou base)(Do html)
-				--> vw = Tem como referência a largura da janela (1vw = 1% da janela), irá ser variável, de acordo com o quanto se 			 encurta ou alarga a janela do navegador horizontalmente
-				--> vh = Tem como referência a altura da janela do navegador (1vh = 1% da janela), irá ser variável, de acordo com o 		  quanto se encurta ou alarga a janela do navegador verticalmente
-				--> vmin = Referênte a menor dimenção da janela do navegador, entre largura e altura
-				--> vmax = Referênte a maior dimenção da janela do navegador, entre largura e altura
+				--> font-size: 	= Para alterar o tamanho da fonte
+				--> em 			= Fonte em referência ao tamanho do elemento (d=De onde ele se localiza irá usar a refenrencia)
+				--> rem 		= Fonte em refereência ao tamanho da raiz (ou base)(Do html)
+				--> vw 			= Tem como referência a largura da janela (1vw = 1% da janela), irá ser variável, de acordo com o quanto se encurta ou alarga a janela do navegador horizontalmente
+				--> vh 			= Tem como referência a altura da janela do navegador (1vh = 1% da janela), irá ser variável, de acordo com o quanto se encurta ou alarga a janela do navegador verticalmente
+				--> vmin 		= Referênte a menor dimenção da janela do navegador, entre largura e altura
+				--> vmax 		= Referênte a maior dimenção da janela do navegador, entre largura e altura
 				--> % = Será referente ai elemento pai, ou seja em relação ao primeiro nível acima do nível de elemento
 		
 		-----------------------------------------------------------------------------------------------------------
@@ -188,43 +193,43 @@
 									 configuração no lugar de arreda-lo
 
 			<!-- Margin -->
-				margin = Para margem em todos os lados
-				margin-top = Margem externa na parte de cima
-				margin-bottom = Margem externa na parte de baixo
-				margin-left = Margem externa na parte esquerda
-				margin-right = Margem externa na parte direita
+				margin 			= Para margem em todos os lados
+				margin-top 		= Margem externa na parte de cima
+				margin-bottom 	= Margem externa na parte de baixo
+				margin-left 	= Margem externa na parte esquerda
+				margin-right	= Margem externa na parte direita
 
 			<!-- padding -->
-				padding = Para Margem interna em todos os lados
-				padding-top = Margem interna em cima
-				padding-bottom = Margem interna em baixo
-				padding-left = Margem interna há esquerda
-				padding-right = Margem interna há direita
+				padding 		= Para Margem interna em todos os lados
+				padding-top 	= Margem interna em cima
+				padding-bottom 	= Margem interna em baixo
+				padding-left	= Margem interna há esquerda
+				padding-right 	= Margem interna há direita
 
 			<!-- Border -->
-				border-width: (Definir valor desejado); = Para expessura da borda
-				border-style: (Definir estilo da borda); = Para o estilo da borda
-							  solid = Estilo de borda mais utilizada
-				border-color: (Definir cor); = Para modificar a cor da borda
-				border-radius: (Definir valor desejado); = Para fazer a borda ficar arredondada
+				border-width: 	(Definir valor desejado); = Para expessura da borda
+				border-style: 	(Definir estilo da borda); = Para o estilo da borda
+							  		solid = Estilo de borda mais utilizada
+				border-color: 	(Definir cor); = Para modificar a cor da borda
+				border-radius: 	(Definir valor desejado); = Para fazer a borda ficar arredondada
 
 			<!-- Tipos de bordas -->
-				dotted = Borda pontilhada
-				dashed = Borda tracejada
-				solid = Borda sólida
-				none = Borda não irá aparecer (Como se nunca tivesse entrado na tela)
-				hidde = Borda não irá aparecer (Borda está na tela mas não esta aparecendo)
+				dotted 	= Borda pontilhada
+				dashed 	= Borda tracejada
+				solid 	= Borda sólida
+				none 	= Borda não irá aparecer (Como se nunca tivesse entrado na tela)
+				hidde 	= Borda não irá aparecer (Borda está na tela mas não esta aparecendo)
 
 			<!-- Propriedades de bordas  -->
-				border-top-color: ; = Para mudar a cor apenas da borda de cima
-				border-bottom-color: ; = Para mudar a cor apenas da borda de baixo
-				border-right-color: ; = Para mudar a cor apenas da borda de direita
-				border-left-color: ; = Para mudar a cor apenas da borda de esquerda
-				<!-- Para configuração diferente em cada lado da borda diretamente -->
-					border-color: Top right bottom left; = a configuração será exatamente nessa ordem de lados (Para cor)
-					border-width: Top right bottom left; = a configuração será exatamente nessa ordem de lados (Para espessura)
-				<!-- Para se fazer a configuração direta da borda -->
-					border: Expessura Estilo cor (Width style color) (Ex.: fgborder: 5px solid black)
+				border-top-color: ; 	= Para mudar a cor apenas da borda de cima
+				border-bottom-color: ; 	= Para mudar a cor apenas da borda de baixo
+				border-right-color: ; 	= Para mudar a cor apenas da borda de direita
+				border-left-color: ; 	= Para mudar a cor apenas da borda de esquerda
+					<!-- Para configuração diferente em cada lado da borda diretamente -->
+						border-color: Top right bottom left; = a configuração será exatamente nessa ordem de lados (Para cor)
+						border-width: Top right bottom left; = a configuração será exatamente nessa ordem de lados (Para espessura)
+					<!-- Para se fazer a configuração direta da borda -->
+						border: Expessura Estilo cor (Width style color) (Ex.: fgborder: 5px solid black)
 
 			<!-- Ordem nas posições dos contornos -->
 
@@ -265,14 +270,14 @@
 				--> text-decoration: none;			= Para deixar sem nenhuma decoração (Caso tiver um já pré-definido)
 				<!-- Obs.: Se desejado pode juntar mais de uma opção de decoração ao mesmo tempo -->
 
-			Letter-spacing: 1px;		= Para colocar espaçamento de um caractere para o outro
+			Letter-spacing: 1px;	= Para colocar espaçamento de um caractere para o outro
 				<!-- Obs.: Pode assumir valores negativos -->
 
-			line-height: 10px;			= Para definir a altura entre as linhas do texto
+			line-height: 10px;		= Para definir a altura entre as linhas do texto
 
-			word-spacing: 10px;			= Para definir espaçamento de uma palavra para a outra
+			word-spacing: 10px;		= Para definir espaçamento de uma palavra para a outra
 
-			text-shadow: 				= Para colocar sombra
+			text-shadow: 	= Para colocar sombra
 				-> É definido por 4 definições
 						1°: Distancia para a direita
 						2°: Distancia para baixo
@@ -306,9 +311,9 @@
 
 			<!-- Criar link: <a href=""></a> -->
 
-			text-decoration: none;		= Para retirar o sublinhado do link (Pode ser usado para acrescentar tambem, como 								ja visto antes)
-			color:						= Para mudar a cor do link
-			cursor: 					= Para mudar o formato do cursor quando estiver encima do link
+			text-decoration: none;	= Para retirar o sublinhado do link (Pode ser usado para acrescentar tambem, como 								ja visto antes)
+			color:					= Para mudar a cor do link
+			cursor: 				= Para mudar o formato do cursor quando estiver encima do link
 
 			-> Pode utilizar todos os tipos de edições de textos apresentados acima, por ex.: background, padding, border,...
 
@@ -321,7 +326,7 @@
 		<!-- Formatação de listas -->
 
 			<!-- Listas não ordenadas -->
-				list-style-type:  					= Para editar os símbolos que antecedem um item da lista não ordenada
+				list-style-type:  = Para editar os símbolos que antecedem um item da lista não ordenada
 					<!-- Mais usados -->
 						list-style-type: none; 		= Para não deixar nenhum símbolo
 						list-style-type: disc; 		= Para deixar um círculo sólido (Padão da lista não ordenada)
@@ -329,7 +334,7 @@
 						list-style-type: square;	= Para deixar um quadrado
 
 			<!-- Listas ordenadas -->
-				list-style-type:  					= Para editar os números que antecedem um item da lista ordenada
+				list-style-type:  = Para editar os números que antecedem um item da lista ordenada
 					<!-- Mais usados -->
 						list-style-type: upper-roman; 	= Para deixar números romanos
 						list-style-type: lower-roman; 	= Para deixar números romanos minúsculos
@@ -337,8 +342,8 @@
 						list-style-type: lower-aplpha; 	= Para deixar letras minúsculas como ordenação
 
 			<!-- Lista em geral -->
-				list-style-image: url("");			= Para inserir uma imagem como símbolo do item
-				list-style-position:				= Para determinar se os símbolos/números sejam incluidos nas listas ou 										 não
+				list-style-image: url("");	= Para inserir uma imagem como símbolo do item
+				list-style-position:		= Para determinar se os símbolos/números sejam incluidos nas listas ou 										 não
 					<!-- De padrão não é incluido -->
 					list-style-position: outside;	= Para não incluir
 					list-style-position: inside;	= Para incluir
@@ -357,65 +362,63 @@
 		
 		<!-- Overflow -->
 			Para quando um texto está excedendo o espaço demilitado para ele.
-			- scroll = Para criar barras de rolagem em ambos os eixos;
-			- auto = Para criar barras de rolagem automaticamente ao eixo necessário;
-			- visible = Para mostrar o conteudo mesmo estando extrapolando o espaço designado;
-			- hidden = Para esconder o conteudo que ultrapassar o espaço designado;
-			- overflow-x = Para criar barras de rolagem no eixo x;
-			- overflow-y = Para criar barras de rolagem no eixo y;
+			- scroll 		= Para criar barras de rolagem em ambos os eixos;
+			- auto 			= Para criar barras de rolagem automaticamente ao eixo necessário;
+			- visible 		= Para mostrar o conteudo mesmo estando extrapolando o espaço designado;
+			- hidden 		= Para esconder o conteudo que ultrapassar o espaço designado;
+			- overflow-x 	= Para criar barras de rolagem no eixo x;
+			- overflow-y 	= Para criar barras de rolagem no eixo y;
 
 		-- Margin: auto = Para centralizar um elemento no espaço disponível.
 
-		-- text-aling = Para editar um conteudo dentro da linha.
+		-- text-aling 	= Para editar um conteudo dentro da linha.
 
-		-- float = Forma de organizar conteudos (div).
+		-- float 		= Forma de organizar conteudos (div).
 
-		-- clear = Para limpar a sequencia da linha.
+		-- clear 		= Para limpar a sequencia da linha.
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">.
 
-		@media screen and (max-width: 500px)= Para mudar a configuração apos atingir o tamanho demilitado.
+		@media screen and (max-width: 500px)	= Para mudar a configuração apos atingir o tamanho demilitado.
 -------------------------------------------------------------------------------------------------------------------
 <!-- Módulo 5 -->
 	<!-- HTML Intermediário -->
 
 		<!-- input -->
-			<input type="text" name="email"> = para email;
-			<input type="password" name="senha"> = Para senha;
-			<input type="checkbox" name="curso" value="op1"> = Para criar caixas de marcação;
-			<input type="radio" name="genero" value="m" checked> = Para criar bolas de opções de escolha unica;
-			<input type="reset" value="Limpar"> = Botão de reset dos campos;
-			<input type="submit" value="Enviar"> = Botão de enviar;
-			<input type="color" name="cor"> = Para criar um botão deescolha de cores;
-			<input type="date" name="data"> = Para criar um botão de escolha de data;
-			<input type="datetime-local" name="data"> = Para criar um botão de escolha de data e hora;
-			<input type="file" name="arquivo"> = Criar botão para receber um arquivo;
-			<input type="number" name="numero" min="1" max="10"> 
-				= Para criar uma caixa para números (Tendo seta para aumentar e diminuir a quantidade desejada);
-			<input type="range" name="intervalo" min="0" max="1000" value="0">
-				 = Para criar uma barra de rolagem para numeros;
-			<input type="tel" name="telefone"> = Para criar um botão para busca de telefone;
-			<input type="email" name="email"> = Para criar botão para receber email;
-			<input type="url" name="url"> = Para criar botão de receber uma url.
+			<input type="text" name="email"> 		= para email;
+			<input type="password" name="senha"> 	= Para senha;
+			<input type="reset" value="Limpar"> 	= Botão de reset dos campos;
+			<input type="submit" value="Enviar"> 	= Botão de enviar;
+			<input type="tel" name="telefone"> 		= Para criar um botão para busca de telefone;
+			<input type="email" name="email"> 		= Para criar botão para receber email;
+			<input type="file" name="arquivo"> 		= Criar botão para receber um arquivo;
+			<input type="url" name="url"> 			= Para criar botão de receber uma url.
+			<input type="color" name="cor"> 		= Para criar um botão deescolha de cores;
+			<input type="date" name="data"> 		= Para criar um botão de escolha de data;
+			<input type="checkbox" name="curso" value="op1"> 		= Para criar caixas de marcação;
+			<input type="datetime-local" name="data"> 				= Para criar um botão de escolha de data e hora;
+			<input type="radio" name="genero" value="m" checked> 	= Para criar bolas de opções de escolha unica;
+			<input type="number" name="numero" min="1" max="10"> 	= Para criar uma caixa para números (Tendo seta para aumentar e diminuir a quantidade desejada);
+			<input type="range" name="intervalo" min="0" max="1000" value="0">		= Para criar uma barra de rolagem para numeros;
 
 		<!-- textarea -->
 			- Para criar caixa de mensgam.
 			<textarea name="mensagem" cols="30" rows="10"></textarea>
 
 		<!-- select e option -->
-			- Para criar Para criar uma caixa de opções de escolha, podento delimitara quantidade maxima para 	aparecer de uma unica fez, e assim criando uma barra de rolagem para as demais
+			- Para criar Para criar uma caixa de opções de escolha, podento delimitara quantidade maxima para aparecer de uma unica fez, e assim criando uma barra de rolagem para as demais
 				<select name="estado" size="3" multiple>
 					<option value="RJ">Rio de Janeiro</option>
 				</select>
 
 		<!-- tags semanticas -->
-			<header> = Cabeçaljo;
-			<nav> = Menu;
-			<main> = Principal conteudo da pagina;
-				<section> = Uma seção de uma página;
-				<article> = Um artigo de sua pagina;
-				<aside> = ;
-			footer: ;
+			<header> 	= Cabeçaljo;
+			<nav> 		= Menu;
+			<main> 		= Principal conteudo da pagina;
+				<section> 	= Representa uma seção de uma página;
+				<article> 	= Representa um artigo de sua pagina;
+				<aside> 	= Representa um bloco de conteúdo que faz referencia ao conteudo principal;
+				<footer>	= Representa um rodapé da página;
 
 -------------------------------------------------------------------------------------------------------------------
 <!-- Módulo 6 -->
@@ -443,18 +446,18 @@
 -------------------------------------------------------------------------------------------------------------------
 <!-- Módulo 7 -->
 
-	-- placeholder = Para colocar uma escrita dentro de uma caixa de botão.
+	-- placeholder 		= Para colocar uma escrita dentro de uma caixa de botão.
 
-	-- background-size = Para ajustar o fundo em algumas formas.
+	-- background-size 	= Para ajustar o fundo em algumas formas.
 
-	-- Max-width = Para demilitar o espaço lateral máximo da TAG ou conteudo a se ocupar na tela.
+	-- Max-width 		= Para demilitar o espaço lateral máximo da TAG ou conteudo a se ocupar na tela.
 
-	-- Site mailchimp (mailchimp.com) = Site para realizar a integração de uma página de captura e receber seus cadastros e utilizalos (Basicamente faz-se o seu back-end).
+	-- Site mailchimp (mailchimp.com) 	= Site para realizar a integração de uma página de captura e receber seus cadastros e utilizalos (Basicamente faz-se o seu back-end).
 	
 	<!-- Atalhos importantes VScode -->
 
-		- ctrl + ' = Para abrir terminal;
-		- crtl + ; = Para comentar a linha toda.
+		- ctrl + ' 	 = Para abrir terminal;
+		- crtl + ;	 = Para comentar a linha toda.
 	
 	<!-- O módulo 7 foi mais prático, por isso haver quase nenhuma opção para a prova -->
 
@@ -465,81 +468,94 @@
 		-> Para se usar JS interno se escreve o código desejado dentro da TAG;
 		-> Para usar o JS externo usa-se: <script src="script.js"></script>.
 
-	--> Algoritmo = Sequencia de passos para se realizar uma tarefa.
+	--> Algoritmo 	= Sequencia de passos para se realizar uma tarefa.
 
-	console.log() = Para imprimir algo no console.
+	console.log() 	= Para imprimir algo no console.
 
 	--> Obs.: Recomenda-se sempre na criação de uma variável utilizar letra minuscula no inicio dela.
 
 	% = Módulo (O resto da divisão).
 
-	x =+ y = Faz a operação com o numero desejado.
+	x =+ y 	= Faz a operação com o numero desejado.
 
-	=== = Comparador de igualdade entre valor e tipo.
+	=== 	= Comparador de igualdade entre valor e tipo.
 
-	!== = Comparador de desigualdade entre valor e tipo.
+	!== 	= Comparador de desigualdade entre valor e tipo.
 	
-	&& = e.
+	&& 		= e.
 
-	|| = ou.
+	|| 		= ou.
 
 	--> Obs.: É possivel fazer uma operação matematica com uma string (Que seja apenas numero), a string irá virar um número.
 
 	swith(x):
-		case "y": = Usa um valor ou uma variável para comparar em casos desejados para se identificar em qual o seu resultado se enquadra.
-		defaut: = Finaliza a sequencia de Swith/case.
+		case "y": 	 = Usa um valor ou uma variável para comparar em casos desejados para se identificar em qual o seu resultado se enquadra.
+		defaut: 	 = Finaliza a sequencia de Swith/case.
 
-	math.random() = Para gerar um numero aleatório entre 0 e 1.
+	math.random() 	 = Para gerar um numero aleatório entre 0 e 1.
 
 	length = Para ler o tamanho de um array.
 
-	for(var x in y) = Substitui o: for(var i=0, i<y.length,i++);
-	for(var x of y) = Vai pegar o valor de cada elemento do array e usar em i.
+	for(var x in y)  = Substitui o: for(var i=0, i<y.length,i++);
+	for(var x of y)  = Vai pegar o valor de cada elemento do array e usar em i.
 
 	--> Metodos = São as ações que um objeto pode realizar (ou quando uma propriedade armazena uma função).
 
 	<!-- Date -->
 
-		var x = new Date() = Para criar uma data (Funciona como um objeto)
+		var x = new Date() 	= Para criar uma data (Funciona como um objeto)
 			() = data atual com todas as informações, na ordem a seguir (Possui mais algumas informações como fusohario e dia da semana):
-				year = Ano;
-				month = Mes;
-				day = dia;
-				hours = hora;
-				minutes = Minuto;
-				seconds = Segundos;
+				year 		= Ano;
+				month 		= Mes;
+				day 		= dia;
+				hours 		= hora;
+				minutes 	= Minuto;
+				seconds 	= Segundos;
 				miliseconds = Milisegundos.
 			
 				--> Obs.: Mes é um array de 0 a 11.
 			
 		<!-- Data como string -->
-			-> var x = new Date("sep 05 2017 23:25");
-			-> var x = new Date("11 05 2017 23:25");
-			-> var x = new Date("05/25/1999");
-			-> var x = new Date("05-25-1999").
+			-> var x 	= new Date("sep 05 2017 23:25");
+			-> var x 	= new Date("11 05 2017 23:25");
+			-> var x 	= new Date("05/25/1999");
+			-> var x 	= new Date("05-25-1999").
 
 		<!-- Utilizando metodos de Date -->
 			-> Para buscar um valor de data= x.getDate (Entre vários outros listados);
 			-> Para setar um valor na variável = x.setDate (Entre vários outros listados).
 
-	-> var = Variável global.
-	-> let = Variável local.
-	-> const = Variável local, que não pode ser modificada (Mas pode ter incrementos no caso de um array ou objeto).
+	-> var 		= Variável global.
+	-> let 		= Variável local.
+	-> const 	= Variável local, que não pode ser modificada (Mas pode ter incrementos no caso de um array ou objeto).
 
 -------------------------------------------------------------------------------------------------------------------
 <!-- Módulo 8 -->
 
 	<!-- Eventos -->
 
-		onclick = Um evento que ao ser clicado irá ser executado.
-		onchange = Um evento para quando executado modificar o elemento desejado.
-		oninput = Um evento que quando se vai digitando na pagina já vai realizando a alteração no elemento desejado.
-		onload = Evento que será executada assim que toda a página tenha sido carregada.
+		onclick 	= Um evento que ao ser clicado irá ser executado.
+		onchange 	= Um evento para quando executado modificar o elemento desejado.
+		oninput 	= Um evento que quando se vai digitando na pagina já vai realizando a alteração no elemento desejado.
+		onload 		= Evento que será executada assim que toda a página tenha sido carregada.
 		onmouseover = Evento que será executado assim que passar o mouse por cima do elemento.
-		onmouseout = Evento que será executado assim que o mouse sair de cima do elemento.
-		addEventListener("mouseover",x) = Modo para se usar eventos;
-			(Criado no JS)		|	 |-> (Função a se chamar)
+		onmouseout 	= Evento que será executado assim que o mouse sair de cima do elemento.
+		addEventListener("mouseover",x) 	= Modo para se usar eventos;
+		  |->(Criado no JS)		|	 |-> (Função a se chamar)
 								|-> (Deixa de precisar do 'on')
-		children = Para se chamar um elemento filho.
-		parentElement = Para se chamar um elemento pai.
-		
+
+
+	<!-- Elementos pais e filhos -->
+
+		children 		= Para se chamar um elemento filho.
+		parentElement 	= Para se chamar um elemento pai.
+
+
+		<!-- Operações matemáticas -->
+
+		Objet Math = Propriedades e módulos para facilitar operações matemáticas;
+			PI(π) 	 	= 3,14...
+			sqrt()	 	= Para calcular a raiz quadrada
+			pow(x,y) 	= Para se calcular potência
+			random() 	= gerar número aleatórioentre 0 e 1
+			roud() 	 	= Para arredondar um valor desejado
